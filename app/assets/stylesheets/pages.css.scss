@@ -1,0 +1,88 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+*{
+	margin:0;
+	padding:0
+}
+
+body,html{
+	font-family:'Roboto', sans-serif;
+	font-weight:300;
+  height:100%;
+  width:100%
+}
+
+.container{
+	padding:0 200px 0 280px;
+	width:100%
+}
+
+.menu ul{
+	list-style:none;
+	padding-left:0
+}
+
+.menu li{
+	display: inline;
+	line-height: 100px;
+  font-size: 18px;
+	font-weight: 500;
+	height: 100px;
+	margin: 0 20px 0 0
+}
+
+.jumbotron{
+	background: url('https://www.dropbox.com/s/mwl7mxjwi7gb86f/bmc-teammachine-slr02-ultegra-2014-road-bike.jpg?raw=1') center center;
+	background-size: cover;
+	min-height: 600px;
+  width: 100%
+}
+
+a.btn{
+	background-color: rgba(0,0,0,0.9);
+}
+
+.footer{
+	background-color:#fff;
+	height:200px;
+	text-align:right;
+	width:100%}
+	
+	
+.social_media li{
+	display:inline-block;
+	height:24px;
+	margin:0 0 0 10px;
+	text-align:left;
+	text-indent:-9999px;
+	width:24px
+}
+
+.github {
+	background: url("https://www.dropbox.com/s/atfhowu9fajb3pb/github.svg?raw=1") center center;
+  width: 24px;
+  height: 24px;
+	background-size: cover;
+}
+
+.linkedin{
+  background: url("https://www.dropbox.com/s/63eceflkounkkln/linkedin.svg?raw=1")center center;
+  width: 24px;
+  height: 24px;
+	background-size: cover;
+}
+
+.tumblr{
+	background-image:url(/tumblr.svg);
+	background-position:center center
+}
+
+.twitter{
+	background: url("https://www.dropbox.com/s/2mql1ck4jrtwp8d/twitter.svg?raw=1")center center;
+  width: 24px;
+  height: 24px;
+	background-size: cover;
+}
+
